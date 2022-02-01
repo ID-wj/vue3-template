@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue';
 
 <style>
 #app {
+  display: block;
   margin-top: 60px;
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;

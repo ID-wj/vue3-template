@@ -22,5 +22,6 @@ module.exports = {
   rules: {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': [0, { 'packageDir ': './src/' }],
+    'linebreak-style': ['error', 'unix'],
   },
 };
