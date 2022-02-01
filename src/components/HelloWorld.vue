@@ -52,8 +52,9 @@ const count = ref(0);
 
 <style scoped>
 a {
-  color: #42b983;
   display: block;
+  height: 10px;
+  color: #42b983;
 }
 
 label {
