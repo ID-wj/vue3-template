@@ -23,5 +23,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': [0, { 'packageDir ': './src/' }],
     'linebreak-style': ['error', 'unix'],
+    'no-debugger': 'off',
+    'no-console': 'off',
   },
 };

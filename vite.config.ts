@@ -7,7 +7,10 @@ import stylelint from 'vite-plugin-stylelint';
 export default defineConfig({
   plugins: [
     vue(),
-    eslint(),
+    eslint({ cache: false }),
     stylelint(),
   ],
+  define: {
+    'process.env': {},
+  },
 });
