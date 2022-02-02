@@ -5,5 +5,6 @@ module.exports = {
     'stylelint-config-recommended-vue',
   ],
   rules: {
+    linebreaks: 'unix',
   },
 };
